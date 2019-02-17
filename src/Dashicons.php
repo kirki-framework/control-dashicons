@@ -11,6 +11,7 @@
 
 namespace Kirki\Control;
 
+use Kirki\Core\Kirki;
 use Kirki\Core\Helper;
 use Kirki\Control\Base;
 
@@ -60,7 +61,7 @@ class Dashicons extends Base {
 
 		// Enqueue the style.
 		wp_enqueue_style(
-			'kirki-control-color-style',
+			'kirki-control-dashicons-style',
 			"$url/assets/styles/style.css",
 			[ 'dashicons' ],
 			KIRKI_VERSION
