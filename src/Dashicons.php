@@ -43,7 +43,7 @@ class Dashicons extends Base {
 
 		$url = apply_filters(
 			'kirki_package_url_control_dashicons',
-			trailingslashit( Kirki::$url ) . 'packages/kirki-framework/control-dashicons/src'
+			trailingslashit( Kirki::$url ) . 'vendor/kirki-framework/control-dashicons/src'
 		);
 
 		// Enqueue the script.
