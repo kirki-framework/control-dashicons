@@ -14,3 +14,4 @@ add_action(
         class_alias( 'Kirki\Control\Dashicons', 'Kirki_Control_Dashicons' );
     }
 );
+class_alias( 'Kirki\Field\Dashicons', 'Kirki_Field_Dashicons' );
